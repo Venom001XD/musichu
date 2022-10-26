@@ -6,37 +6,37 @@ answer = []
 answer.extend(
     [
         InlineQueryResultArticle(
-            title="🔷 ᴩᴀᴜsᴇ ",
+            title="ᴩᴀᴜsᴇ ",
             description=f"ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
             thumb_url="https://telegra.ph/file/b95e95e731d9c33bc4bc5.jpg",
             input_message_content=InputTextMessageContent("/pause"),
         ),
         InlineQueryResultArticle(
-            title="🔷 ʀᴇsᴜᴍᴇ ",
+            title="ʀᴇsᴜᴍᴇ ",
             description=f"ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
             thumb_url="https://telegra.ph/file/b95e95e731d9c33bc4bc5.jpg",
             input_message_content=InputTextMessageContent("/resume"),
         ),
         InlineQueryResultArticle(
-            title="🔷 sᴋɪᴩ ",
+            title="sᴋɪᴩ ",
             description=f"sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɴᴅ ᴍᴏᴠᴇs ᴛᴏ ᴛʜᴇ ɴᴇxᴛ sᴛʀᴇᴀᴍ.",
             thumb_url="https://telegra.ph/file/b95e95e731d9c33bc4bc5.jpg",
             input_message_content=InputTextMessageContent("/skip"),
         ),
         InlineQueryResultArticle(
-            title="🔷 ᴇɴᴅ ",
+            title="ᴇɴᴅ ",
             description="ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
             thumb_url="https://telegra.ph/file/b95e95e731d9c33bc4bc5.jpg",
             input_message_content=InputTextMessageContent("/end"),
         ),
         InlineQueryResultArticle(
-            title="🔷 sʜᴜғғʟᴇ ",
+            title="sʜᴜғғʟᴇ ",
             description="sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ sᴏɴɢs ɪɴ ᴩʟᴀʏʟɪsᴛ.",
             thumb_url="https://telegra.ph/file/b95e95e731d9c33bc4bc5.jpg",
             input_message_content=InputTextMessageContent("/shuffle"),
         ),
         InlineQueryResultArticle(
-            title="🔷 ʟᴏᴏᴩ ",
+            title="ʟᴏᴏᴩ ",
             description="ʟᴏᴏᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
             thumb_url="https://telegra.ph/file/b95e95e731d9c33bc4bc5.jpg",
             input_message_content=InputTextMessageContent("/loop 3"),

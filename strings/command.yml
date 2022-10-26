@@ -5,13 +5,13 @@
 #ɴᴇᴛᴡᴏʀᴋ :- @Otaku_Binge
 
 # Bot Commands
-PING_COMMAND : ["mping", "malive"]
-START_COMMAND : ["mstart"]
-HELP_COMMAND : ["mhelp"]
-SETTINGS_COMMAND : ["msettings", "msetting"]
+PING_COMMAND : ["ping", "alive"]
+START_COMMAND : ["start"]
+HELP_COMMAND : ["help"]
+SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats", "globalstats"]
-STATS_COMMAND : ["mstats"]
+STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lundlang", "lavdalele", "langlund"]
 
 # Play Commands
@@ -92,7 +92,7 @@ UNBLOCK_COMMAND : ["unblock"]
 BLOCKED_COMMAND : ["blockedusers", "blocked", "blusers"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["mspeedtest", "spt", "stest", "speedt"]
+SPEEDTEST_COMMAND : ["speedtest", "spt", "stest", "speedt"]
 
 #Voice chat commands
 ACTIVEVC_COMMAND : ["activevoice", "activevc"]

@@ -51,4 +51,4 @@ async def start(self):
                 f"Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
             )
             sys.exit()
-userbot.start()        
+        

@@ -9,7 +9,7 @@ import sys
 
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
-
+from VIVI.core.userbot import Userbot
 import config
 from config import *
 from VIVI import LOGGER, app, userbot
@@ -69,14 +69,6 @@ async def init():
     await VIV.decorators()
     LOGGER("VIVI").info("Music Bot Started Successfully, ENJOY PEEPS")
     await idle()
-'''userbot(
-    ":memory:",
-    API_ID,
-    API_HASH,
-    bot_token=BOT_TOKEN,
-    plugins={"root": "VIVI.modules"},
-).start()'''
-userbot.start()
     
 
 

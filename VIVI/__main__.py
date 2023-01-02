@@ -69,14 +69,14 @@ async def init():
     await VIV.decorators()
     LOGGER("VIVI").info("Music Bot Started Successfully, ENJOY PEEPS")
     await idle()
-userbot(
+'''userbot(
     ":memory:",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
     plugins={"root": "VIVI.modules"},
-).start()
-
+).start()'''
+userbot.start()
     
 
 

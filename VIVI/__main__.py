@@ -69,6 +69,23 @@ async def init():
     await VIV.decorators()
     LOGGER("VIVI").info("Music Bot Started Successfully, ENJOY PEEPS")
     await idle()
+    try:
+        await userbot.send_message(
+            config.LOG_GROUP_ID,
+            f"Started",
+        )
+    except Exception as e:
+        print(
+            "ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ʜᴀs ғᴀɪʟᴇᴅ ᴛᴏ ᴀᴄᴄᴇss ᴛʜᴇ ʟᴏɢ ᴄʜᴀɴɴᴇʟ. ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴅᴅᴇᴅ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇᴅ ᴀs ᴀᴅᴍɪɴ!"
+        )
+        LOGGER.print(f"\n[red]sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ")
+        return
+    try:
+        await userbot.join_chat("AbishnoiMF")
+        await userbot.join_chat("Abishnoi_bots")
+    except:
+        pass
+    await run()
     
 
 

@@ -11,7 +11,7 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from config import BANNED_USERS
+from config import *
 from VIVI import LOGGER, app, userbot
 from VIVI.core.call import VIV
 from VIVI.plugins import ALL_MODULES

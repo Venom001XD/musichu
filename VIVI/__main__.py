@@ -54,7 +54,6 @@ async def init():
     LOGGER("VIVI.plugins").info(
         "Necessary Modules Imported Successfully."
     )
-    await userbot.start()
     await VIV.start()
     try:
         await VIV.stream_call(
@@ -69,6 +68,14 @@ async def init():
         pass
     await VIV.decorators()
     LOGGER("VIVI").info("Music Bot Started Successfully, ENJOY PEEPS")
+userbot(
+    ":memory:",
+    API_ID,
+    API_HASH,
+    bot_token=BOT_TOKEN,
+    plugins={"root": "VIVI.modules"},
+).start()
+
     await idle()
 
 

@@ -68,8 +68,8 @@ async def init():
         pass
     await VIV.decorators()
     LOGGER("VIVI").info("Music Bot Started Successfully, ENJOY PEEPS")
-userbot(
     await idle()
+userbot(
     ":memory:",
     API_ID,
     API_HASH,
